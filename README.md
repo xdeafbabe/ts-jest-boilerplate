@@ -1,6 +1,7 @@
 # TypeScript + Jest + ESLint boilerplate
 
 [![codecov](https://codecov.io/gh/Euromance/ts-jest-boilerplate/branch/master/graph/badge.svg?token=FPQNIRM2AD)](https://codecov.io/gh/Euromance/ts-jest-boilerplate)
+![awesomeness](https://img.shields.io/badge/awesome-yes-blueviolet)
 
 TDD and everything.
 Boilerplate code to avoid configuring TypeScript compiler, the test suite and linter.
@@ -11,6 +12,17 @@ It uploads code coverage to codecov.io as well! Just add your repo in it's setti
 Although you'll have to add some codecov.io token or whatever for private repos. Duh.
 Just clone it and do whatever is on your mind. You can purge the `./git` directory and initialize your repo.
 I don't care about forking or stars or mentions or whatever, just use it. No copyrights whatsoever.
+
+## Usage
+
+```bash
+git clone https://github.com/Euromance/ts-jest-boilerplate.git your-project
+cd your-project
+rm -rf .git README.md LICENSE
+git init 
+git add .
+git commit -m "Initial commit"
+```
 
 _I find this enormous zoo of JS tooling overwhelming, each of them using their own config file and style and packages and whatever. Python is much simpler as there is PEP8. Feel free to contribute and improve!_
 
