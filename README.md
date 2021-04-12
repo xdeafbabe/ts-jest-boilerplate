@@ -1,5 +1,7 @@
 # TypeScript + Jest + ESLint boilerplate
 
+[![codecov](https://codecov.io/gh/Euromance/ts-jest-boilerplate/branch/master/graph/badge.svg?token=FPQNIRM2AD)](https://codecov.io/gh/Euromance/ts-jest-boilerplate)
+
 TDD and everything.
 Boilerplate code to avoid configuring TypeScript compiler, the test suite and linter.
 All the source code and tests are to be placed under `./src` and `./tests` directories respectively.
