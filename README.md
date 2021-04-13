@@ -1,7 +1,7 @@
 # TypeScript + Jest + ESLint boilerplate
 
 [![codecov](https://codecov.io/gh/Euromance/ts-jest-boilerplate/branch/master/graph/badge.svg?token=FPQNIRM2AD)](https://codecov.io/gh/Euromance/ts-jest-boilerplate)
-![awesomeness](https://img.shields.io/badge/awesome-yes-blueviolet)
+![awesomeness](https://img.shields.io/badge/awesomeness-yes-blueviolet)
 
 TDD and everything.
 Boilerplate code to avoid configuring TypeScript compiler, the test suite and linter.
@@ -19,10 +19,17 @@ I don't care about forking or stars or mentions or whatever, just use it. No cop
 git clone https://github.com/Euromance/ts-jest-boilerplate.git your-project
 cd your-project
 rm -rf .git README.md LICENSE
+sed -i s/tsjestboilerplate/your-project/ package.json
 git init 
 git add .
 git commit -m "Initial commit"
 ```
+
+## License
+
+Do whatever comes to your mind. Modify, redistribute, upload to `npm`, create a `yeoman` template, tell your friends you wrote it - I don't care.
+
+## P.S.
 
 _I find this enormous zoo of JS tooling overwhelming, each of them using their own config file and style and packages and whatever. Python is much simpler as there is PEP8. Feel free to contribute and improve!_
 
