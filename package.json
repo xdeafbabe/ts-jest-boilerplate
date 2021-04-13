@@ -1,11 +1,11 @@
 {
-    "name": "tbracket",
+    "name": "tsjestboilerplate",
     "version": "0.0.1",
-    "description": "Tournament bracket",
+    "description": "TypeScript Jest boilerplate. Duh.",
     "main": "index.js",
-    "repository": "https://github.com/Euromance/tbracket",
+    "repository": "https://github.com/Euromance/ts-jest-boilerplate",
     "author": "Euromancer <kysput@gmail.com>",
-    "license": "MIT",
+    "license": "Unlicense",
     "devDependencies": {
         "@types/jest": "^26.0.22",
         "@typescript-eslint/eslint-plugin": "^4.21.0",
